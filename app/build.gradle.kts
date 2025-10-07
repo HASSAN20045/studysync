@@ -44,7 +44,7 @@ android {
         // compose = true
     }
 
-    // ⬇️ Add this block
+    //
     lint {
         abortOnError = false        // Don’t fail the build on lint errors
         checkReleaseBuilds = false  // Don’t run strict lint for release in CI yet
